@@ -1,0 +1,190 @@
+
+nav{
+
+  width:100%;
+  height: 100px;
+  background-color: #fff;
+}
+ul {
+  margin:50;
+  padding:0;
+}
+ul li {
+  list-style-type: circle;
+    display: inline-block;
+    line-height: 100px;
+  margin:0;
+  padding:0;
+}
+ul li a {
+  display: block;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  font-size: 30px;
+  font-style: none;
+  font-family: serif;
+  color: #1e1e1e;
+  padding:10px 20px;
+}
+
+body {
+color: grey;
+margin:0 ;
+text-align: center;
+/* font-size: 1em;
+font-family: helvetica, arial,sans-serif;
+line-height: 1.5; */
+font:1em/1.5 helvetica, arial,sans-serif;
+}
+.main-header{
+background-color: lightblue;
+padding: 150px 100px;
+border-width:10px 10px;
+border-style: solid;
+border-color:grey #909090;
+
+/* reduced down */
+/* border: 10px solid #ffa949; */
+margin-top:25px;
+margin-right: 100px;
+margin-bottom:40px;
+margin-left:100px;
+/* reduced down */
+/* margin: 25px 30px 25px 30px; i can also reduce to 25px 30px*/
+  background-image: url("css/../img/longmountian.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+  font-size: 60px;
+  color: white;
+  text-shadow: -7px 5px 2px rgba(0,0,0,.8);
+  text-align: center;
+text-transform: uppercase;
+line-height: 1em;
+font-family: arial, "times new roman"
+}
+
+h2{
+  color: black;
+  font-size: 30px;
+  margin-top: 10px;
+}
+h3{
+color:black;
+  fontsize: 45px
+}
+p {
+color: #505050;
+  text-align: center;
+
+}
+.pourchshot,
+.poolshot{
+  width: 40%;
+box-sizing: border-box;
+}
+.pourchshot {
+margin: 20px 15px;
+padding: 11px 11px 1px 11px;
+padding-bottom: 7px;
+border-width:10px 10px;
+border-style: solid;
+border-color:grey #909090;
+float:right;
+}
+.poolshot {
+  margin: 20px 15px;
+  padding: 11px 11px 1px 11px;
+  border-width:10px 10px;
+  border-style: solid;
+  border-color:grey #909090;
+float: left;
+}
+.primary-content,
+.secoundary-content{
+  width:60%;
+  margin: auto;
+  overflow: auto;
+}
+.luxurygym,
+.dryerandwasher{
+  width: 39.5%;
+  padding: 11px 11px 1px 11px;
+  padding-bottom: 7px;
+  border-width:10px 10px;
+  border-style: solid;
+  border-color:grey #909090;
+  width: 40%;
+box-sizing: border-box;
+}
+.luxurygym {
+float:left;
+margin-left: 30px;
+padding-top: 22px;
+
+}
+
+.dryerandwasher {
+float: right;
+margin-right: 30px;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.todo {
+text-align: left;
+margin-top: 12px;
+}
+.aroundus {
+  text-decoration:none;
+  text-align: left;
+  margin-bottom: 10px;
+}
+img{
+max-width:100%;
+margin-bottom:20px;
+}
+#main-footer {
+padding-top: 4px;
+padding-bottom: 60px;
+border-bottom: solid 10px lightblue;
+margin-top: 60px;
+}
+/* links color edits below */
+a:link{
+  color:red;
+  text-decoration: none;
+  display:block;
+}
+a:visited{
+  color:#b82ee5;
+}
+a:hover{
+color:black;
+}
+a:active {
+  color:yellow;
+}
+.underline{
+  text-decoration:underline;
+  font-family: arial;
+  text-align: center;
+  margin-top: 10px;
+}
+/* ......................border of list ..................... */
+ /* li,
+ol{
+border: 1px solid grey;
+list-style-position: inside;
+} */
+/* #pcolor {
+  color:white;
+  background-color: red;
+} */
+/* .................................. */
