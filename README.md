@@ -1,1 +1,1 @@
-https://superdupercjz.github.io/my1st-project-2019/
+https://superdupercjz.github.io/Model-US-1stproject/
